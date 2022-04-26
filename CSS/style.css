@@ -1,0 +1,50 @@
+.container{
+    width:70%;
+    background: rgb(182, 182, 255);
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.test_container{
+    width: 100%;
+    
+}
+header{
+    background: rgb(143, 143, 255);
+    width: 50%;
+    text-align: center;
+    margin: 2% auto;
+    
+}
+.container1{
+    width:100%;
+    
+    background: rgb(59, 59, 236);
+}
+.sub_container1{
+    width:100%;
+    background: rgb(86, 86, 231);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.btn, .btn2, footer{
+    width: 40%;
+    margin: 1% auto;
+    background-color: bisque;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ident_eleves, .eleves_admis{
+    color: white;
+    font-size: 28px;
+    margin: 2% auto;
+    background: rgb(149, 149, 255);
+}
+
+footer{
+    font-style: italic;
+    color: rgb(206, 34, 34);
+}

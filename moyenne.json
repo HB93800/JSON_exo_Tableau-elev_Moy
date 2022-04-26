@@ -1,0 +1,43 @@
+{
+    "Tableau":[
+        {
+            "Nom":"BENTALHA",
+            "Prenom":"Malik",
+            "Note":"10",
+            "Notes":["10","12","15","8","7","10","9"],
+            "Remarques":"Peut mieux faire"
+        },
+        {
+            "Nom":"BUN",
+            "Prenom":"Hay Mean",
+            "Note":"17",
+            "Notes":["20","2","15","18","7","10","19"],
+            "Remarques":"Bons résultat mais élève déjanté"
+        },
+        {
+            "Nom":"EBOUE",
+            "Prenom":"Fabrice",
+            "Note":"16.5",
+            "Notes":["10","10","10","15","15","15","12,5"],
+            "Remarques":"Bons résultat, studieux, mais attention aux sarcasmes"
+
+        },
+        {
+            "Nom":"NGIGOL",
+            "Prenom":"Thomas",
+            "Note":"15.5",
+            "Notes":["5","5","5","5","2","2","2"],
+            "Remarques":"Bon élève, j'ai beaucoup apprécié la lettre de son cousin"
+            
+        },
+        {
+            "Nom":"SYLLA",
+            "Prenom":"Ahmed",
+            "Note":"10.5",
+            "Notes":["20","19","18","18","19","19","18,5"],
+            "Remarques":"En progrès, pourrait s'améliorer s'il descendait de sa montagne"
+            
+        }
+
+    ]
+}
