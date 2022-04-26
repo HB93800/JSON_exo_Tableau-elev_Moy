@@ -3,6 +3,9 @@ $(document).ready (function() {
 
     let nom_eleve = "";
     let prenom_eleve = "";
+    $('.ident_eleves').hide();
+    $('.eleves_admis').hide();
+    $('footer').hide();
   
     $('.btn').click( ()=>{ // Afficher les idents des élèves
            
@@ -50,10 +53,14 @@ $(document).ready (function() {
                     console.log(xhr.status);
                 }
             })
-            $('.ident_eleves').slideToggle();
+            //$('.ident_eleves').show();
+            $('.ident_eleves').slideToggle(500);
+
 //return false;
         })
-        $('.btn2').click( ()=>{ //affichage des notes
+
+        ////////////////////////////////////  affichage des notes ou moyennes ////////////////////////////////////////////////////////////////////
+        $('.btn2').click( ()=>{ 
            
             $.ajax({
                 url:'moyenne.json',
@@ -205,9 +212,9 @@ $(document).ready (function() {
                 }
             })
             
-            $('.eleves_admis').slideToggle();
-            $('footer').slideToggle();
+            $('.eleves_admis').slideToggle(500);
+            $('footer').slideToggle(500 );
 
-//return false;
+        //return false;
         })
 });
